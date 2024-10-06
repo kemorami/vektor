@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.vector{
+    color: black;
+    font-size: 40px;
+}
+.header{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    font-family: "Gowun Batang", serif;
+    width: 100%;
+    max-width: 1150px;
+    
+}
+.np{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.top{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar{
+    display: block;
+    width: 100%;
+    margin: 30px 0 ;
+    box-sizing: border-box;
+    margin-bottom: 65px;
+}
+.navbarul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.7s ;
+    z-index: 1001;
+}
+.catalog{
+    color: black;
+    display: none;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    list-style-type: circle;
+    transition: 0.5s ;
+    position: absolute;
+    z-index: 1000;
+    min-width: 10em;
+    width: auto;
+}
+.li:hover > .catalog{
+    display: block;
+    background-color: white;
+}
+.link:hover{
+    color: rgb(247, 0, 0);
+}
+.li {
+    width: 100px;
+}
+.catalogitem{
+    color: black;
+    font-size: 16.5px;
+    text-decoration: none;
+    transition: 1s;
+    padding:10px 0px;
+    line-height: 3;
+}

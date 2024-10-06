@@ -1,0 +1,21 @@
+.bio{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 50px;
+}
+.h2{
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 20px;
+}
+.biodiv{
+    width: 383px;
+    margin: 20px 0;
+}
+.text{
+    color: black;
+    text-align: center;
+    margin-top: 200px;
+}
